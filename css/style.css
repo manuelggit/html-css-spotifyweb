@@ -7,3 +7,32 @@
 body {
   font-family: 'Lato', sans-serif;
 }
+
+main, section, div {
+  border: 1px solid black; /*debug*/
+}
+
+main {
+  display: flex;
+  width: 100%;
+  height: calc(100vh - 90px);
+  background: yellow;
+}
+
+#opzioni, #principale {
+  display: flex;
+}
+
+#opzioni {
+  flex-basis: 200px;
+  background: blue; /*debug*/
+}
+
+#principale {
+  flex-basis: calc(100vw - 150px);
+  background: red; /*debug*/
+}
+
+#player {
+  height: 90px;
+}
