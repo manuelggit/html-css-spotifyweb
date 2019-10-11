@@ -45,7 +45,7 @@ main {
 #principale {
   display: flex;
   flex-direction: column;
-  max-width: calc(100% - 200px);
+  width: calc(100% - 200px);
   overflow: scroll;
   background: red; /*debug*/
 
@@ -81,9 +81,26 @@ main {
     .artisti {
       display: flex;
       flex-direction: row;
-      flex-wrap: wrap;
+      flex-wrap: nowrap;
+      font-size: 0.6em;
+      text-align: center;
+      justify-content: space-around;
     }
 
-      .singolo-artista img {
-        max-width: calc((1440px - 200px) / 7);
+    .singolo-artista {
+      padding: 5px;
+    }
+
+      .foto-artista {
+        background-image: url("../img/drapht.jpg");
+        background-size: cover;
+        background-position: center;
+        max-width: calc((1200px - 200px) / 6);
+        max-height: calc((1200px - 200px) / 6);
+        min-width: calc((992px - 200px) / 6);
+        min-height: calc((992px - 200px) / 6);
+      }
+
+      .singolo-artista h3 {
+        padding: 2px 0;
       }
