@@ -6,7 +6,6 @@
 
 body {
   font-family: 'Lato', sans-serif;
-  font-size: 0.6em;
 }
 
 main, section, div {
@@ -29,10 +28,7 @@ main {
   background: blue; /*debug*/
 }
 
-#principale {
-  flex-basis: calc(100vw - 150px);
-  background: red; /*debug*/
-}
+
 
 #player {
   height: 90px;
@@ -40,21 +36,44 @@ main {
 
 /* PRINCIPALE */
 
-/* menu */
-
-#menu {
+#principale {
   display: flex;
-  justify-content: center;
-  flex-basis: 100%;
+  flex-direction: column;
+  flex-basis: calc(100vw - 150px);
+  background: red; /*debug*/
 }
 
-.items-menu {
-  display: flex;
-  flex-basis: calc((767px - 200px) / 6);
-  align-items: center;
-  height: 90px;
-}
+  /* menu */
 
-.items-menu {
-  justify-content: center;
-}
+  #menu {
+    display: flex;
+    justify-content: center;
+  }
+
+  .items-menu {
+    display: flex;
+    flex-basis: calc((767px - 200px) / 6);
+    justify-content: center;
+    align-items: center;
+    height: 90px;
+    font-size: 0.6em;
+  }
+
+  /* riga */
+
+  .riga {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .titolo-riga {
+    display: flex;
+  }
+
+  .artisti {
+    display: flex;
+  }
+
+  .singolo-artista {
+    flex-basis: 200px;
+  }
