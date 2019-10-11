@@ -15,14 +15,14 @@ main, section, div {
 #container {
   display: flex;
   flex-direction: column;
-  flex-basis: 100%;
+  width: 100%;
   justify-content: space-between;
 }
 
 main {
   display: flex;
   flex-direction: row;
-  flex-basis: 100%;
+  width: 100%;
   height: calc(100vh - 90px);
   background: yellow;
 }
@@ -35,7 +35,7 @@ main {
 #opzioni {
   display: flex;
   flex-direction: column;
-  flex-basis: 200px;
+  width: 200px;
   flex-shrink: 0;
   background: blue; /*debug*/
 }
@@ -58,14 +58,14 @@ main {
     justify-content: center;
   }
 
-  .items-menu {
-    display: flex;
-    flex-basis: calc((767px - 200px) / 6);
-    justify-content: center;
-    align-items: center;
-    height: 90px;
-    font-size: 0.6em;
-  }
+    .items-menu {
+      display: flex;
+      width: calc((767px - 200px) / 6);
+      justify-content: center;
+      align-items: center;
+      height: 90px;
+      font-size: 0.6em;
+    }
 
   /* riga */
 
@@ -74,14 +74,16 @@ main {
     flex-direction: column;
   }
 
-  .titolo-riga {
-    display: flex;
-  }
+    .titolo-riga {
+      display: flex;
+    }
 
-  .artisti {
-    display: flex;
-  }
+    .artisti {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+    }
 
-  .singolo-artista {
-    flex-basis: 200px;
-  }
+      .singolo-artista img {
+        max-width: calc((1440px - 200px) / 7);
+      }
