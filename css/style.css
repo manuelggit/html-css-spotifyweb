@@ -12,26 +12,32 @@ main, section, div {
   border: 1px solid black; /*debug*/
 }
 
+#container {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  justify-content: space-between;
+}
+
 main {
   display: flex;
+  flex-direction: row;
   flex-basis: 100%;
   height: calc(100vh - 90px);
   background: yellow;
 }
 
-#opzioni, #principale {
-  display: flex;
+#player {
+  height: 90px;
+  justify-content: space-between;
 }
 
 #opzioni {
+  display: flex;
+  flex-direction: column;
   flex-basis: 200px;
+  flex-shrink: 0;
   background: blue; /*debug*/
-}
-
-
-
-#player {
-  height: 90px;
 }
 
 /* PRINCIPALE */
@@ -39,8 +45,10 @@ main {
 #principale {
   display: flex;
   flex-direction: column;
-  flex-basis: calc(100vw - 150px);
+  max-width: calc(100% - 200px);
+  overflow: scroll;
   background: red; /*debug*/
+
 }
 
   /* menu */
