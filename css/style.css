@@ -32,13 +32,16 @@ main {
   justify-content: space-between;
 }
 
+/* OPZIONI */
+
 #opzioni {
   display: flex;
   flex-direction: column;
   width: 200px;
-  flex-shrink: 0;
   background: blue; /*debug*/
+  justify-content: space-between;
 }
+
 
 /* PRINCIPALE */
 
