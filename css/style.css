@@ -12,6 +12,10 @@ i {
   font-size: 0.8em;
 }
 
+h2 {
+  font-size: 3em;
+}
+
 /* NOTE: COLORI
 grigio font: #b3b3b3
 background player top: #1a290c
@@ -50,6 +54,12 @@ main {
   color: #b3b3b3;
   background-color: #0F0F0F;
   justify-content: space-between;
+  font-size: 0.7em;
+}
+
+#container-opzioni {
+  width: 80%;
+  margin: auto;
 }
 
 #ascolti-recenti {
@@ -67,6 +77,16 @@ main {
   overflow: scroll;
   color: #b3b3b3;
   background-image: linear-gradient(to top left, #0F0F0F 0%, #202020 50%, #3F621F 100%);
+}
+
+#container-principale {
+  width: 96%;
+  margin: auto;
+}
+
+.titolo-riga h2 {
+  padding-top: 40px;
+  color: #FAFAFA;
 }
 
   /* menu */
@@ -94,6 +114,7 @@ main {
 
     .titolo-riga {
       display: flex;
+      margin: 20px;
     }
 
     .artisti {
