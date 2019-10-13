@@ -22,7 +22,8 @@ background player top: #1a290c
 background player bottom: #202020
 background principale alto sx: #3F621F
 nero: #0F0F0F
-font bianco: #FAFAFA */
+font bianco: #FAFAFA
+verde: #2ebd59 */
 
 
 #container {
@@ -46,6 +47,11 @@ main {
 }
 
 /* OPZIONI */
+
+.voce-nav:hover, #ascolti-recenti h3:hover, #install:hover, #profilo:hover {
+  color: #FAFAFA;
+  cursor: pointer;
+}
 
 #opzioni {
   display: flex;
@@ -130,8 +136,6 @@ main {
       padding-right: 5px;
     }
 
-
-
 /* PRINCIPALE */
 
 #principale {
@@ -162,11 +166,28 @@ main {
 
     .items-menu {
       display: flex;
+      flex-direction: column;
       width: calc((767px - 200px) / 6);
       justify-content: center;
       align-items: center;
       height: 90px;
       font-size: 0.6em;
+    }
+
+    .items-menu h3 {
+      padding-bottom: 5px;
+    }
+
+    .items-menu:hover {
+      color: #FAFAFA;
+      cursor: pointer;
+    }
+
+    .green-items-menu {
+      background-color: #2ebd59;
+      width: 30px;
+      height: 2px;
+      display: none;
     }
 
   /* riga */
@@ -178,7 +199,20 @@ main {
 
     .titolo-riga {
       display: flex;
-      /* margin: 20px; */
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: flex-end;
+      margin: 20px 0;
+    }
+
+    .titolo-riga h5 {
+      padding-right: 5px;
+      display: none;
+    }
+
+    .titolo-riga h5:hover {
+      color: #FAFAFA;
+      cursor: pointer;
     }
 
     .artisti {
@@ -245,6 +279,16 @@ main {
     color: #FAFAFA;
   }
 
+  .titolo-canzone:hover {
+    text-decoration: underline;
+    cursor: pointer;
+  }
+
+  .autori-canzone:hover, .mipiace:hover {
+    color: #FAFAFA;
+    cursor: pointer;
+  }
+
   /* #center-player */
 
   #center-player {
@@ -253,6 +297,11 @@ main {
     justify-content: space-evenly;
     max-width: 700px;
     min-width: 500px;
+  }
+
+  .shuffle:hover, .precedente:hover, .play:hover, .successivo:hover, .ripeti:hover {
+    color: #FAFAFA;
+    cursor: pointer;
   }
 
     /* comandi-play */
@@ -319,4 +368,9 @@ main {
     top: -5px;
     left: 100%;
     transform: translate(-10px, 0);
+  }
+
+  .coda:hover, .dispositivi:hover, .disattiva-audio:hover, .volume:hover {
+    color: #FAFAFA;
+    cursor: pointer;
   }
