@@ -112,6 +112,7 @@ main {
 #player {
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
 }
 
   /* #canzone */
@@ -139,38 +140,55 @@ main {
     overflow: scroll;
   }
 
-/* #center-player */
+  /* #center-player */
 
-.center-player {
-  display: flex;
-  flex-direction: column;
-}
+  #center-player {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    max-width: 700px;
+    min-width: 500px;
+  }
 
-.comandi-play {
-  display: flex;
-  flex-direction: row;
-}
+    /* comandi-play */
 
-.barra-play {
-  display: flex;
-  flex-direction: row;
-}
+    .comandi-play {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+    }
 
-#impostazioni {
-  display: flex;
-  flex-direction: row;
-}
+      .comandi-play div {
+        padding: 0 20px;
+      }
 
+    /* barra-play */
 
+    .barra-play {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      align-items: center;
+    }
 
-.bar {
-  width: 50%;
-  height: 2px;
-  background-color: red; /* debug*/
-}
+     .bar {
+       width: 80%;
+       height: 2px;
+       background-color: red; /* debug*/
+     }
 
-.volume {
-  width: 5%;
-  height: 2px;
-  background-color: red; /* debug*/
-}
+  /* #impostazioni */
+
+  #impostazioni {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 150px;
+  }
+
+  .volume {
+    width: 50%;
+    height: 2px;
+    background-color: red; /* debug*/
+  }
