@@ -52,6 +52,12 @@ main {
   justify-content: space-between;
 }
 
+#ascolti-recenti {
+  overflow: scroll;
+  width: 200px;
+  height: calc(100vh - 90px - 200px);
+}
+
 /* PRINCIPALE */
 
 #principale {
