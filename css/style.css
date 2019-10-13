@@ -9,7 +9,7 @@ body {
 }
 
 main, section, div {
-  border: 1px solid black; /*debug*/
+  /* border: 1px solid black; /*debug*/ */
 }
 
 #container {
@@ -107,3 +107,25 @@ main {
       .singolo-artista h3 {
         padding: 2px 0;
       }
+
+/* PLAYER */
+
+.img-canzone {
+  background-image: url("../img/supermarkets-birthh.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 60px;
+  height: 60px;
+}
+
+.bar {
+  width: 50%;
+  height: 2px;
+  background-color: red; /* debug*/
+}
+
+.volume {
+  width: 5%;
+  height: 2px;
+  background-color: red; /* debug*/
+}
