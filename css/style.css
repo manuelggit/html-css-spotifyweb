@@ -12,9 +12,14 @@ i {
   font-size: 0.8em;
 }
 
-main, section, div {
-  /* border: 1px solid black; /*debug*/ */
-}
+/* NOTE: COLORI
+grigio font: #b3b3b3
+background player top: #1a290c
+background player bottom: #202020
+background principale alto sx: #3F621F
+nero: #0F0F0F
+font bianco: #FAFAFA */
+
 
 #container {
   display: flex;
@@ -42,10 +47,10 @@ main {
   display: flex;
   flex-direction: column;
   width: 200px;
-  background: blue; /*debug*/
+  color: #b3b3b3;
+  background-color: #0F0F0F;
   justify-content: space-between;
 }
-
 
 /* PRINCIPALE */
 
@@ -54,7 +59,8 @@ main {
   flex-direction: column;
   width: calc(100% - 200px);
   overflow: scroll;
-  background: red; /*debug*/
+  color: #b3b3b3;
+  background-image: linear-gradient(to top left, #0F0F0F 0%, #202020 50%, #3F621F 100%);
 }
 
   /* menu */
@@ -117,6 +123,8 @@ main {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  color: #b3b3b3;
+  background-image: linear-gradient(to top, #202020 0%, #1a290c 100%);
 }
 
   /* #canzone */
@@ -142,6 +150,7 @@ main {
   .titolo-canzone {
     max-height: 20px;
     overflow: scroll;
+    color: #FAFAFA;
   }
 
   /* #center-player */
@@ -169,6 +178,7 @@ main {
 
         .play i {
           font-size: 2em;
+          color: #FAFAFA;
         }
 
     /* barra-play */
@@ -184,7 +194,7 @@ main {
        position: relative;
        width: 80%;
        height: 2px;
-       background-color: red; /* debug*/
+       background-color: #b3b3b3;
      }
 
        .bar i {
@@ -209,7 +219,7 @@ main {
     height: 2px;
     margin-right: 15px;
     position: relative;
-    background-color: red; /* debug*/
+    background-color: #b3b3b3;
   }
 
   .volume i {
