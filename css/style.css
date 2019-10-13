@@ -62,11 +62,75 @@ main {
   margin: auto;
 }
 
-#ascolti-recenti {
-  overflow: scroll;
-  width: 200px;
-  height: calc(100vh - 90px - 200px);
-}
+    /* logo e nav */
+
+    #logo {
+      display: flex;
+      flex-direction: row;
+      margin: 30px 0;
+      justify-content: flex-start;
+      text-align: center;
+    }
+
+    #logo i {
+      font-size: 3em;
+      padding-right: 5px;
+    }
+
+    h1 {
+      font-size: 2em;
+    }
+
+    .voce-nav {
+      display: flex;
+      flex-direction: row;
+      margin-bottom: 10px;
+    }
+
+    .voce-nav i {
+      font-size: 2em;
+      padding-right: 15px;
+    }
+
+
+    #ascolti-recenti {
+      overflow: scroll;
+      width: 200px;
+      height: calc(100vh - 90px - 300px);
+    }
+
+  /* #down-opzioni */
+
+  #down-opzioni {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+    #install {
+      display: flex;
+      flex-direction: row;
+      padding: 10px 0;
+    }
+
+    #install i {
+      font-size: 1.5em;
+      padding-right: 5px;
+    }
+
+    #profilo {
+      display: flex;
+      flex-direction: row;
+      padding-top: 10px;
+      border-top: 1px solid #b3b3b3;
+    }
+
+    #profilo i {
+      font-size: 2em;
+      padding-right: 5px;
+    }
+
+
 
 /* PRINCIPALE */
 
