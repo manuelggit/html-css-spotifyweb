@@ -243,6 +243,35 @@ main {
         padding: 2px 0;
       }
 
+      .hover-foto-artista {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        max-width: calc((1200px - 200px) / 6);
+        max-height: calc((1200px - 200px) / 6);
+        min-width: calc((992px - 200px) / 6);
+        min-height: calc((992px - 200px) / 6);
+        visibility: hidden;
+      }
+
+      .hover-foto-artista .fa-heart {
+        font-size: 2em;
+      }
+
+      .hover-foto-artista .fa-play-circle {
+        font-size: 3em;
+      }
+
+      .hover-foto-artista .puntini {
+        font-size: 2em;
+      }
+
+      .hover-foto-artista:hover {
+        visibility: visible;
+        cursor: pointer;
+      }
+
 /* PLAYER */
 
 #player {
