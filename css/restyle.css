@@ -1,0 +1,33 @@
+@media screen and (max-width: 767px) {
+
+  * {
+    margin: 0;
+  }
+
+  #opzioni {
+    width: 70px;
+  }
+
+  #container-opzioni {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  nav {
+    margin-left: 10px;
+  }
+
+  #logo {
+    margin-left: 5px;
+  }
+
+  #ascolti-recenti, nav h3, div h3, div h1 {
+    display: none;
+  }
+
+  #principale {
+    width: calc(100% - 70px);
+  }
+
+}
