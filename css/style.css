@@ -240,6 +240,8 @@ main {
         transition: opacity 0.5s;
       }
 
+      /* foto artista hover */
+
       .foto-artista:hover {
         opacity: 0.5;
       }
@@ -302,7 +304,7 @@ main {
     flex-direction: row;
     max-width: 25%;
     min-width: 20%;
-    justify-content: space-between;
+    justify-content: flex-start;
     align-items: center;
   }
 
@@ -319,6 +321,10 @@ main {
     max-height: 20px;
     overflow: scroll;
     color: #FAFAFA;
+  }
+
+  .mipiace {
+    margin: 0 15px;
   }
 
   .titolo-canzone:hover {
