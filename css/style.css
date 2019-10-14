@@ -98,7 +98,6 @@ main {
       padding-right: 15px;
     }
 
-
     #ascolti-recenti {
       overflow: scroll;
       width: 200px;
@@ -111,6 +110,7 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    height: 70px;
   }
 
     #install {
@@ -207,7 +207,6 @@ main {
 
     .titolo-riga h5 {
       padding-right: 5px;
-      display: none;
     }
 
     .titolo-riga h5:hover {
@@ -237,6 +236,12 @@ main {
         max-height: calc((1200px - 200px) / 6);
         min-width: calc((992px - 200px) / 6);
         min-height: calc((992px - 200px) / 6);
+        opacity: 1;
+        transition: opacity 0.5s;
+      }
+
+      .foto-artista:hover {
+        opacity: 0.5;
       }
 
       .singolo-artista h3 {
@@ -253,6 +258,7 @@ main {
         min-width: calc((992px - 200px) / 6);
         min-height: calc((992px - 200px) / 6);
         visibility: hidden;
+        color: #FAFAFA;
       }
 
       .hover-foto-artista .fa-heart {
@@ -267,8 +273,15 @@ main {
         font-size: 2em;
       }
 
-      .hover-foto-artista:hover {
+      .foto-artista:hover .hover-foto-artista{
         visibility: visible;
+      }
+
+      .hover-foto-artista:hover {
+        background-color: (0, 0, 0, 0.5)
+      }
+
+      .fa-heart:hover, .fa-play-circle:hover, .puntini:hover {
         cursor: pointer;
       }
 
@@ -297,7 +310,7 @@ main {
     background-image: url("../img/supermarkets-birthh.jpg");
     background-size: cover;
     background-position: center;
-    width: 90px;
+    width: 60px;
     height: 60px;
     margin: 0 15px;
   }
