@@ -28,6 +28,10 @@
     width: calc(100% - 70px);
   }
 
+  .titolo-riga h5 {
+    display: none;
+  }
+
   /* PLAYER */
 
   #player {
