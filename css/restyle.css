@@ -1,8 +1,6 @@
 @media screen and (max-width: 767px) {
 
-  * {
-    margin: 0;
-  }
+  /* OPZIONI */
 
   #opzioni {
     width: 70px;
@@ -30,4 +28,37 @@
     width: calc(100% - 70px);
   }
 
-}
+  /* PLAYER */
+
+  #player {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    overflow: hidden;
+  }
+
+  #canzone {
+    width: 40%;
+  }
+
+  .mipiace {
+    margin-left: 5%;
+  }
+
+  #center-player {
+    margin-left: 5%;
+    width: 20%;
+  }
+
+  #impostazioni {
+    margin-left: 5%;
+    width: 25%;
+  }
+
+  .info-canzone {
+    margin-left: 15px;
+  }
+
+  .img-canzone, .shuffle, .ripeti, .barra-play, .coda, .dispositivi {
+    display: none;
+  }

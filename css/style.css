@@ -287,8 +287,8 @@ main {
   #canzone {
     display: flex;
     flex-direction: row;
-    max-width: 300px;
-    min-width: 200px;
+    max-width: 25%;
+    min-width: 20%;
     justify-content: space-between;
     align-items: center;
   }
@@ -324,8 +324,8 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    max-width: 700px;
-    min-width: 500px;
+    max-width: 50%;
+    min-width: 30%;
   }
 
   .shuffle:hover, .precedente:hover, .play:hover, .successivo:hover, .ripeti:hover {
