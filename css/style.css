@@ -309,6 +309,8 @@ main {
   }
 
   .img-canzone {
+    display: flex;
+    flex-shrink: 0;
     background-image: url("../img/supermarkets-birthh.jpg");
     background-size: cover;
     background-position: center;
