@@ -20,7 +20,7 @@
     margin-left: 5px;
   }
 
-  #ascolti-recenti, nav h3, div h3, div h1 {
+  #ascolti-recenti, nav h3, div h1, #install h3, #profilo h3 {
     display: none;
   }
 
