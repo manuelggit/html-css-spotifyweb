@@ -223,8 +223,31 @@ main {
       padding: 5px;
     }
 
-      .foto-artista {
+      #drapht {
         background-image: url("../img/drapht.jpg");
+      }
+
+      #frahquintale {
+        background-image: url("../img/frahquintale.jpg");
+      }
+
+      #L7 {
+        background-image: url("../img/L7.jpg");
+      }
+
+      #verdena {
+        background-image: url("../img/verdena.jpg");
+      }
+
+      #birthh{
+        background-image: url("../img/birthh.jpg");
+      }
+
+      #liberato {
+        background-image: url("../img/liberato.jpg");
+      }
+
+      .foto-artista, #drapht, #frahquintale, #L7, #verdena, #birthh, #liberato {
         background-size: cover;
         background-position: center;
         width: calc((1155px - 200px) / 6);
