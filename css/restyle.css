@@ -18,6 +18,20 @@
 
 @media screen and (max-width: 767px) {
 
+  /* MENU */
+
+  #menu {
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 60px;
+  }
+
+  .items-menu {
+    width: calc((767px - 200px) / 3);
+    font-size: 1.2em;
+    height: 60px;
+  }
+
   /* OPZIONI */
 
   #opzioni {
