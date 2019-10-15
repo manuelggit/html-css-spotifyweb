@@ -220,7 +220,7 @@ main {
     }
 
     .singolo-artista {
-      padding: 5px;
+      margin: 20px 5px;
     }
 
       #drapht {
@@ -265,6 +265,7 @@ main {
       }
 
       .singolo-artista h3 {
+        margin: 10px 0;
         padding: 2px 0;
       }
 
