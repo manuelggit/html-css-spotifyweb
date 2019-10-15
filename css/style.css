@@ -229,6 +229,7 @@ main {
 
       #frahquintale {
         background-image: url("../img/frahquintale.jpg");
+        border-radius: 50%;
       }
 
       #L7 {
@@ -245,6 +246,7 @@ main {
 
       #liberato {
         background-image: url("../img/liberato.jpg");
+        border-radius: 50%;
       }
 
       .foto-artista, #drapht, #frahquintale, #L7, #verdena, #birthh, #liberato {
