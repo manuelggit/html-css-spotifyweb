@@ -212,11 +212,11 @@ main {
     .artisti {
       display: flex;
       flex-direction: row;
-      flex-wrap: nowrap;
+      flex-wrap: wrap;
       font-size: 0.6em;
       text-align: center;
       justify-content: space-between;
-      overflow: scroll;
+      /* overflow: scroll; */
     }
 
     .singolo-artista {
@@ -227,10 +227,8 @@ main {
         background-image: url("../img/drapht.jpg");
         background-size: cover;
         background-position: center;
-        max-width: calc((1200px - 200px) / 6);
-        max-height: calc((1200px - 200px) / 6);
-        min-width: calc((992px - 200px) / 6);
-        min-height: calc((992px - 200px) / 6);
+        min-width: calc((1155px - 200px) / 6);
+        min-height: calc((1155px - 200px) / 6);
         opacity: 1;
         transition: opacity 0.5s;
       }
@@ -250,8 +248,8 @@ main {
         flex-direction: row;
         justify-content: space-around;
         align-items: center;
-        max-width: calc((1200px - 200px) / 6);
-        max-height: calc((1200px - 200px) / 6);
+        max-width: calc((1280px - 200px) / 6);
+        max-height: calc((1280px - 200px) / 6);
         min-width: calc((992px - 200px) / 6);
         min-height: calc((992px - 200px) / 6);
         visibility: hidden;
