@@ -4,6 +4,16 @@
     width: calc((1150px - 200px) / 4);
     height: calc((1150px - 200px) / 4);
   }
+
+}
+
+@media screen and (max-width: 991px) {
+
+  .artisti {
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+  }
+
 }
 
 @media screen and (max-width: 767px) {
