@@ -1,3 +1,11 @@
+@media screen and (max-width: 1100px){
+
+  .foto-artista {
+    width: calc((1150px - 200px) / 4);
+    height: calc((1150px - 200px) / 4);
+  }
+}
+
 @media screen and (max-width: 767px) {
 
   /* OPZIONI */

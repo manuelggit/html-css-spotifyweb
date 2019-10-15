@@ -227,8 +227,8 @@ main {
         background-image: url("../img/drapht.jpg");
         background-size: cover;
         background-position: center;
-        min-width: calc((1155px - 200px) / 6);
-        min-height: calc((1155px - 200px) / 6);
+        width: calc((1155px - 200px) / 6);
+        height: calc((1155px - 200px) / 6);
         opacity: 1;
         transition: opacity 0.5s;
       }
